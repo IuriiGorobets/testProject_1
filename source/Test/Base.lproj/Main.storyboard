@@ -22,10 +22,21 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJE-ms-WKd">
+                                <rect key="frame" x="171" y="388" width="258" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="258" id="18A-DP-bew"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="QkG-d9-OEX" secondAttribute="centerX" id="Gsf-yJ-Pnr"/>
+                            <constraint firstAttribute="centerX" secondItem="JJE-ms-WKd" secondAttribute="centerX" id="IEc-Y8-Sxo"/>
+                            <constraint firstItem="JJE-ms-WKd" firstAttribute="top" secondItem="QkG-d9-OEX" secondAttribute="bottom" constant="70" id="LhS-k8-W0M"/>
                             <constraint firstAttribute="centerY" secondItem="QkG-d9-OEX" secondAttribute="centerY" id="YZk-sc-JMa"/>
                         </constraints>
                     </view>
