@@ -1,0 +1,22 @@
+Only in /Users/admin/Documents/repoGitHubProjects/testProject_1: .git
+Only in /Users/admin/Documents/repoGitHubProjects/testProject_1: Test1.txt
+Only in /Users/admin/Documents/repoGitHubProjects/testProject_1: result.txt
+Only in /Users/admin/Documents/repoGitHubProjects/testProject_1/source: .DS_Store
+diff -r /Users/Shared/Jenkins/Home/jobs/TestMirrorSvnToGitHub/workspace/SVNtoGitMirrorTest/source/Test/Base.lproj/Main.storyboard /Users/admin/Documents/repoGitHubProjects/testProject_1/source/Test/Base.lproj/Main.storyboard
+24a25,33
+>                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJE-ms-WKd">
+>                                 <rect key="frame" x="171" y="388" width="258" height="21"/>
+>                                 <constraints>
+>                                     <constraint firstAttribute="width" constant="258" id="18A-DP-bew"/>
+>                                 </constraints>
+>                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+>                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+>                                 <nil key="highlightedColor"/>
+>                             </label>
+28a38,39
+>                             <constraint firstAttribute="centerX" secondItem="JJE-ms-WKd" secondAttribute="centerX" id="IEc-Y8-Sxo"/>
+>                             <constraint firstItem="JJE-ms-WKd" firstAttribute="top" secondItem="QkG-d9-OEX" secondAttribute="bottom" constant="70" id="LhS-k8-W0M"/>
+diff -r /Users/Shared/Jenkins/Home/jobs/TestMirrorSvnToGitHub/workspace/SVNtoGitMirrorTest/source/Test/ViewController.m /Users/admin/Documents/repoGitHubProjects/testProject_1/source/Test/ViewController.m
+24a25
+>     //ABABAGALAMAGF
+Binary files /Users/Shared/Jenkins/Home/jobs/TestMirrorSvnToGitHub/workspace/SVNtoGitMirrorTest/source/Test.xcodeproj/project.xcworkspace/xcuserdata/admin.xcuserdatad/UserInterfaceState.xcuserstate and /Users/admin/Documents/repoGitHubProjects/testProject_1/source/Test.xcodeproj/project.xcworkspace/xcuserdata/admin.xcuserdatad/UserInterfaceState.xcuserstate differ
